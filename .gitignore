@@ -1,0 +1,6 @@
+node_modules
+shots/*
+!shots/.gitkeep
+sitemap.xml
+.idea
+.DS_Store

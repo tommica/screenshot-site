@@ -1,0 +1,13 @@
+{
+  "name": "screenshot-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node snapshot.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fast-xml-parser": "^3.12.12",
+    "puppeteer": "^1.12.2"
+  }
+}
