@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node snapshot.js"
+    "start": "node snapshot.js",
+    "startCluster": "node snapshot-cluster.js"
   },
   "license": "MIT",
   "dependencies": {
+    "cluster": "^0.7.7",
     "fast-xml-parser": "^3.12.12",
     "puppeteer": "^1.12.2"
   }
